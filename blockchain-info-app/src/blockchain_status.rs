@@ -36,6 +36,6 @@ pub struct Backend {
 #[derive(Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
 pub struct BlockchainStatus {
-    pub block_book: Blockbook,
+    pub blockbook: Blockbook,
     pub backend: Backend,
 }
